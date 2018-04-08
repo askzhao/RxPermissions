@@ -7,11 +7,12 @@ android {
     defaultConfig {
         applicationId "com.tbruyelle.rxpermissions.sample"
         minSdkVersion 14
+        targetSdkVersion 21
 
-        targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
+
 
     packagingOptions {
         exclude 'META-INF/rxjava.properties'
